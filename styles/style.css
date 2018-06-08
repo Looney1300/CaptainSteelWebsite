@@ -45,7 +45,7 @@ body {
 }
 
 #logoAndTitle {
-	width: 35%;
+	/* width: 35%; */
 }
 
 #logo {
@@ -69,15 +69,20 @@ body {
 	margin-left: 20px;
 }
 
+@media screen and (max-width:752px) {
+    .span4 { display:none }
+}
+
 .span4 {
-	width: 60%;
+	width: 433px;
 	margin-top: 20px;
-	margin-right: 2%;
+	margin-right: 10px;
 	float: right;
+	padding-left: 0;
 }
 
 .span4 li {
-	padding-right: 1%;
+	padding-right: 5px;
 	display: block;
 	float: right;
 }
