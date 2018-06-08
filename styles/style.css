@@ -44,10 +44,6 @@ body {
 	border-bottom-color: rgb(46, 94, 78);
 }
 
-#logoAndTitle {
-	/* width: 35%; */
-}
-
 #logo {
 	display: block;
 	height: 60px;
@@ -70,7 +66,7 @@ body {
 }
 
 @media screen and (max-width:752px) {
-    .span4 { display:none }
+    .span4 { display:none; }
 }
 
 .span4 {
